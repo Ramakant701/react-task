@@ -49,14 +49,6 @@ class App extends React.Component {
         };
     }
 
-    componentDidMount() {
-
-    }
-
-    componentWillUnmount() {
-
-    }
-
 
     input = () => {
         return <input id={'projectName'} type={'text'} style={{width: '438px', height: '39px', fontSize: '30px'}}
@@ -155,11 +147,6 @@ class App extends React.Component {
             console.log('error', error);
         }
     };
-
-    onStyleChange(e, id) {
-
-
-    }
 
 
     render() {
